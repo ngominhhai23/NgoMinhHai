@@ -1,0 +1,51 @@
+body{
+
+}
+h1,h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+.demo-header{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.Demo{
+	padding: 50px;
+}
+.Demo__image img{
+	width: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.Demo__image img:hover{
+	opacity: 0.8
+}
+
+.Demo__caption{
+	text-align: center;
+	background: rgba(0,0,0,0.1);
+	padding: 20px;
+	
+}
+
+.demo-body{
+	padding: 100px 50px;
+	background: rgba(0,0,0,0.05);
+}
+
+.theme-logo{
+	margin-bottom: 30px;
+}
+
+.choose-version{
+	text-align: center;
+	margin-bottom: 50px;
+}
