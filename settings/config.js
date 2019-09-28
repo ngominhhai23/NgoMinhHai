@@ -25,8 +25,8 @@ window.Config = {
     introStaticText: "I'm", // Static text
     introTypingTexts: [ // Set of texts to display in Typing Texts module
         "Creative",
-        "Experienced",
-        "TEJ"
+        "Hard work",
+        "NGÔ MINH HẢI"
     ],
 
     /*
