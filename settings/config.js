@@ -26,7 +26,7 @@ window.Config = {
     introTypingTexts: [ // Set of texts to display in Typing Texts module
         "Creative",
         "Hard work",
-        "NGÔ MINH HẢI"
+        "NGO MINH HAI"
     ],
 
     /*
