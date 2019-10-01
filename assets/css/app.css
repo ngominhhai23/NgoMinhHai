@@ -1755,7 +1755,9 @@ div.container-Tab {
     border: 1px solid #ccc;
     border-top: none;
 }
-
+.button-Lab{
+text-align: center;
+}
 
 
 /*.Portfolio__items {
