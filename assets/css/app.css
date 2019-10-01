@@ -11,7 +11,30 @@
 display: none;
  }
 
+#IMPLEMENT{
+position: relative;
+width: 1280px;
+height: 720px;
+background: #FFFFFF;
+border: 1px solid black; 
+overflow: hidden;
+
 }
+
+#IMPLEMENT.form_lab1{
+
+}
+#IMPLEMENT.line4{
+position: absolute;
+width: 306.01px;
+height: 0px;
+left: 48px;
+top: 71px;
+
+border: 1px solid #000000;
+
+}
+
 .slide-fade-enter-active {
   transition: all .8s ease;
 }
