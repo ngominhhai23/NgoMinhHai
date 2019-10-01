@@ -1755,8 +1755,14 @@ div.container-Tab {
     border: 1px solid #ccc;
     border-top: none;
 }
+
+.center-Lab{
+  overflow: hidden;
+  text-align: center;
+}
 .button-Lab{
-text-align: center;
+
+
 }
 
 
