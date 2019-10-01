@@ -5,7 +5,12 @@
 /*trình bày các bài tập*/
 #REQUIREMENT{
   text-align: center;
+  overflow: hidden;
  }
+ #REQUIREMENT.tabcontent{
+display: none;
+ }
+
 }
 .slide-fade-enter-active {
   transition: all .8s ease;
