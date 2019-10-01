@@ -2,9 +2,11 @@
  * ANIMATIONS
  */
 
-
-
+/*trình bày các bài tập*/
+#REQUIREMENT{
+  text-align: center;
  }
+}
 .slide-fade-enter-active {
   transition: all .8s ease;
 }
@@ -1761,8 +1763,6 @@ div.container-Tab {
   text-align: center;
 }
 .button-Lab{
-
-
 }
 
 
