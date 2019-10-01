@@ -2,6 +2,9 @@
  * ANIMATIONS
  */
 
+
+
+ }
 .slide-fade-enter-active {
   transition: all .8s ease;
 }
@@ -1705,8 +1708,57 @@ section .section--basic.\--nopadding-bottom,
 /**
  * PORTFOLIO
  */
+div.container-Tab {
+    width: auto;  
+    margin: auto;
+    display: flex;
+  justify-content: center;
+}
+/* định dạng thẻ div chưa các button tab */
+.tab {
+    position: absolute;
+    overflow: hidden; 
+    background-color: white;
 
-.Portfolio__items {
+}
+ 
+/* định dạng các button tab */
+.tab button {
+    background-color: white; 
+    float: left;
+    border: 2px solid white; 
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 0.1s;
+    font-size: 20px;
+
+}
+ 
+/* đổi màu khi một button tab được hover */
+.tab button:hover {
+    background-color: black;
+    color: white;
+}
+ 
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+.tab button.active {
+    background-color: black;
+    color: white;
+}
+ 
+/* định dạng nội dung hiển thị */
+.tabcontent {
+    font-size: 18px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+/*.Portfolio__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1887,7 +1939,7 @@ section .section--basic.\--nopadding-bottom,
     max-width: 100%;
     width: 100%;
   }
-}
+}*/
 
 /**
  * PROJECT PAGE
