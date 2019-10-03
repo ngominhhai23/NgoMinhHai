@@ -11,19 +11,7 @@
 display: none;
  }
 
-#IMPLEMENT{
-position: relative;
-width: 1280px;
-height: 720px;
-background: #FFFFFF;
-border: 1px solid black; 
-overflow: hidden;
 
-}
-
-#IMPLEMENT.form_lab1{
-
-}
 
 .slide-fade-enter-active {
   transition: all .8s ease;
