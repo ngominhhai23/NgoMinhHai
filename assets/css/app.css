@@ -1,6 +1,14 @@
 /**
  * ANIMATIONS
  */
+.content-design{
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.icondownload{
+    margin: auto;
+}
 
 .slide-fade-enter-active {
   transition: all .8s ease;
