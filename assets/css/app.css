@@ -1609,8 +1609,8 @@ section .section--basic.\--nopadding-bottom,
 
 .about-me-photo {
   background-repeat: no-repeat;
-  background-position: left 10% bottom;
-  background-size: 40% auto;
+  background-position: left 25% bottom 42%;
+  background-size: 20% auto;
 }
 
 .Skill__head {
