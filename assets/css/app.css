@@ -1,3 +1,19 @@
+/*Dowload button*/
+/* Style buttons */
+
+.btn-dowload {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+#icondowload.btn-dowload:hover {
+  background-color: RoyalBlue;
+}
 /**
  * ANIMATIONS
  */
@@ -1596,8 +1612,19 @@ section .section--basic.\--nopadding-bottom,
  * ABOUT ME
  */
 
+/*.About-me-content{
+  font-family: serif;
+  font-size: 20px;
+}
+.About-me-photo {
+  background-repeat: no-repeat;
+  background-position: top left 20%;
+  background-size: 20% auto;
+}*/
+
+
 .about-me-text h3 {
-  text-transform: uppercase;
+  font-family: serif;
   font-size: 18px;
   line-height: 1.8em;
   letter-spacing: 3px;
