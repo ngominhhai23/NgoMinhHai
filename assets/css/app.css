@@ -11,7 +11,7 @@
 }
 
 /* Darker background on mouse-over */
-#icondowload.btn-dowload:hover {
+.btn-dowload:hover {
   background-color: RoyalBlue;
 }
 /**
