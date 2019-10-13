@@ -1,0 +1,175 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.nav{
+    width: 100%    ;
+}
+
+.list_wrap .group-tabs .nav .nav-item{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: 120px;
+    /*background-color: #041230;*/
+}
+.list_wrap .group-tabs .nav .nav-item .nav-link{
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    color: #ffffff;
+}
+.list_wrap .group-tabs .nav .nav-item .active{
+    color: black;
+}
+
+.tab-content{
+
+}
+.tab-content .container .nav .nav-item {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: 140px;
+
+}
+.tab-content .container .nav .nav-item .nav-link{
+    width: 140px;
+    color: #ffffff;
+}
+.tab-content .container .nav .nav-item .active{
+    color: black;
+}
+.bound{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.fade{
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0;
+}
+#home1{
+    padding-left: 0;
+}
+.nav-tabs{
+    background-color: #655c57;
+    margin-left: 0px !important;
+}
+.rqcontainer .rqul{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    padding-left: 50px;
+ }
+.rqcontainer .rqul li{
+    list-style-type: circle;
+}
+.rqcontainer .rqul .rqli{
+    width: max-content !important;
+    margin-bottom: 10px !important;
+}
+
+.rqcontainer .rqul li p{
+    width: max-content;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+.bca{
+    width: 100% !important;
+    list-style-type: circle;
+    margin-bottom: 10px !important;
+}
+.contents{
+    padding-left: 50px  ;
+}
+.bg-svg{
+    width: 100%;
+    height: 100%;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fas{
+    font-size: 20px;
+}
+.icondownload{
+    margin: auto;
+}
+.github{
+    margin: 20px 20px;
+}
+.gh{
+    display: flex;
+    flex-direction: column;
+}
+#implement p{
+    font-size: 20px;
+    font-family: monospace;
+
+}
+.all{
+    width: 100px;
+    height: 40px;
+    background-color: #0000ff;
+    color: #FFFFFF;
+}
+.hiden{
+    display: none!important;
+}
+.thumb{
+    width: 800px;
+    height: 600px;
+    background-image:none ;
+    background-position: center center;
+    background-size: cover;
+}
+.imgsenario{
+    width: 600px;
+    height: 500px;
+    background-image: url(../lab/senario.PNG);
+
+    background-repeat: round;
+}
+.imgbyphone{
+    width: 500px;
+    height: 500px;
+    background-image: url(../lab/byphone.PNG);
+}
