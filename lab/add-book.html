@@ -7,65 +7,60 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
+    <style> hr.line {border: 1px solid #FFFFFF;}</style>
+    <style>.btn1{background-color: #F3B749;color: #2E1E11;font-size: 20px;border-radius: 4px;}
+    </style>
 </head>
-<body  style="background-color:#c9c9c9">
+<body  style="background-color:#FEF0BF">
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-8">
                 <form>
-                    <center><h2>MY FAVOURITE MOVIES<i class="fas fa-film"></i></h2></center>
-                    <hr>
+                    <center><h4 style="color: #2E1E11">LIBRARY BOOK MANAGEMENT</h4></center>
+                    <hr class="line">
                     <div class="row">
-                        <div class="col">
-                            <label>Tên phim: </label>
-                            <input type="text" class="form-group" required name>
+                        <div class="col-md-4">
+                            <label>Book tile: </label>
                         </div>
+                            <input type="text" class="form-group" required name size="40" autofocus="">
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <label>Đạo diễn: </label>
-                            <input type="text" class="form-group" required name>
+                        <div class="col-md-4">
+                            <label>Book code: </label>
                         </div>
-                    </div>
-                        <div class="row">
-                        <div class="col">
-                            <label>Quốc gia: </label>
-                            <input type="text" class="form-group" required name>
-                        </div>
+                            <input type="text" class="form-group" required name size="10">
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <label>Năm phát hành: </label>
+                        <div class="col-md-4">
+                            <label>Author: </label>
+                        </div>
+                            <input type="text" class="form-group" required name size="25">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Category: </label>
+                        </div>
                             <select>
-                                <option selected="">2019</option>
-                                <option>2018</option>
-                                <option>2017</option>
-                                <option>2016</option>
-                                <option>2015</option>
-                                <option>Trước 2015</option>
+                                <option selected="">Information Technology</option>
+                                <option>Marketing-sales</option>
+                                <option>Psychological-life skills</option>
+                                <option>Medicine-health</option>>
                             </select>
-                        </div>
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <label>Thể loại: </label>
-                            <select>
-                                <option selected="">Phim hành động</option>
-                                <option>Phim viễn thưởng</option>
-                                <option>Phim phiêu lưu</option>
-                                <option>Phim gia đình</option>
-                                <option>Phim hoạt hình</option>
-                                <option>Phim tình cảm</option>
-                            </select>
+                        <div class="col-md-4">
+                            <label>Publishing company: </label>
                         </div>
+                            <input type="text" class="form-group" required name size="25">
+
                     </div>
-                    <center>
+                    <hr class="line">
+                <center>
                     <div class="form-group">
-                <button class="btn btn-dark" type="sub">OK</button>
-                <button class="btn btn-dark" type="sub">HỦY</button>
-            </div>
-            </center>
+                        <button class="btn1" type="submit">ADD</button>
+                        <button class="btn1" type="submit">CANCEL</button>
+                    </div>
+                </center>
                 </form>
             </div>
         </div>
