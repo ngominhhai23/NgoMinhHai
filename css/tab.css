@@ -2,6 +2,7 @@
     overflow: hidden;
     border: 1px solid #000000;
     background-color: #f1f1f1;
+    
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -17,12 +18,12 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #f3b749;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #f3b749;
 }
 
 /* Style the tab content */
@@ -47,10 +48,11 @@
     bottom: 0;
     right: 0;
     width: 120px;
-    color: #ffffff;
+    color: #000;
 }
 .list_wrap .group-tabs .nav .nav-item .active{
-    color: black;
+    background-color: #fff;
+    text-decoration: underline;
 }
 
 .tab-content{
@@ -67,7 +69,7 @@
     color: #ffffff;
 }
 .tab-content .container .nav .nav-item .active{
-    color: black;
+    background-color: #fef0bf;
 }
 .bound{
     padding-left: 30px;
@@ -82,7 +84,7 @@
     padding-left: 0;
 }
 .nav-tabs{
-    background-color: #655c57;
+    background-color: #fff;
     margin-left: 0px !important;
 }
 .rqcontainer .rqul{
