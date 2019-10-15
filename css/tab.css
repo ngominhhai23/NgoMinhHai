@@ -68,10 +68,10 @@
 }
 .tab-content .container .nav .nav-item .nav-link{
     width: 140px;
-    color: #ffffff;
+    color: #000;
 }
 .tab-content .container .nav .nav-item .active{
-    background-color: #fef0bf;
+    background-color: #99ffcc;
 }
 .bound{
     padding-left: 30px;
@@ -151,7 +151,7 @@
 .all{
     width: 100px;
     height: 40px;
-    background-color: #F3B749;
+    background-color: #0000ff;
     color: #FFFFFF;
 }
 .hiden{
