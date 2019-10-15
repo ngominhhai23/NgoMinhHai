@@ -2,7 +2,6 @@
     overflow: hidden;
     border: 1px solid #000000;
     background-color: #f1f1f1;
-    
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -32,6 +31,9 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+.menu{
+    width: 100%;
 }
 .nav{
     width: 100%;
