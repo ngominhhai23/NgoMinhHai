@@ -33,14 +33,13 @@
     border-top: none;
 }
 .nav{
-    width: 100%    ;
+    width: 100%;
 }
 
 .list_wrap .group-tabs .nav .nav-item{
     margin-bottom: 0px;
     padding-left: 0px;
     width: 120px;
-    /*background-color: #041230;*/
 }
 .list_wrap .group-tabs .nav .nav-item .nav-link{
     top:0;
@@ -148,7 +147,7 @@
 .all{
     width: 100px;
     height: 40px;
-    background-color: #00ff00;
+    background-color: #F3B749;
     color: #FFFFFF;
 }
 .hiden{
