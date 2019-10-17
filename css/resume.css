@@ -183,7 +183,6 @@ a:hover, a:focus, a:active {
     flex-direction: column;
     float: left;
     justify-content: center;
-    padding: 1em;
     width: 100%;
 }
 .main-title {
