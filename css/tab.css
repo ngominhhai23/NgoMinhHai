@@ -43,6 +43,7 @@
     margin-bottom: 0px;
     padding-left: 0px;
     width: 120px;
+    text-align: center;
 }
 .list_wrap .group-tabs .nav .nav-item .nav-link{
     top:0;
@@ -54,7 +55,6 @@
 }
 .list_wrap .group-tabs .nav .nav-item .active{
     background-color: #fff;
-    text-decoration: underline;
 }
 
 .tab-content{
@@ -71,7 +71,7 @@
     color: #000;
 }
 .tab-content .container .nav .nav-item .active{
-    background-color: #00ffcc;
+    background-color: #fff;
 }
 .bound{
     padding-left: 30px;
