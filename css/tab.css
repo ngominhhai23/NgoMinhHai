@@ -62,7 +62,7 @@
 
 }
 .tab-content .container .nav .nav-item {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding-left: 0px;
     width: 140px;
     text-align: center;
@@ -131,15 +131,33 @@
 .content1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: all;
     align-items: center;
 }
-.fas{
-    font-size: 20px;
+
+/* Style buttons */
+.icondownload {
+    margin-left: 10px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 1px 5px;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 4px;
 }
-.icondownload{
-    margin: auto;
+a {
+  color: #fff;
 }
+
+a:hover, a:focus, a:active {
+  color: #fff;
+}
+/* Darker background on mouse-over */
+.icondownload:hover {
+  background-color: RoyalBlue;
+}
+/**/
 .github{
     margin: 20px 20px;
 }
@@ -152,11 +170,21 @@
     font-family: monospace;
 
 }
-.all{
-    width: 100px;
-    height: 40px;
-    background-color: #0000ff;
-    color: #FFFFFF;
+.all-download{
+    text-align: center;
+}
+.icondownload-all{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.icondownload-all:hover {
+  background-color: RoyalBlue;
 }
 .hiden{
     display: none!important;
