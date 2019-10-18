@@ -184,7 +184,8 @@ a:hover, a:focus, a:active {
     float: left;
     justify-content: center;
     width: 100%;
-}
+    padding-bottom: 4rem !important;
+  }
 .main-title {
   text-align: center;
   padding-top: 4rem !important;
