@@ -133,6 +133,8 @@
     flex-direction: row;
     justify-content: all;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /* Style buttons */
@@ -143,7 +145,7 @@
   color: white;
   padding: 1px 5px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 4px;
 }
 a {
@@ -190,8 +192,8 @@ a:hover, a:focus, a:active {
     display: none!important;
 }
 .thumb{
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 347px;
     background-image:none ;
     background-position: center center;
     background-size: cover;
