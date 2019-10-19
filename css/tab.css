@@ -1,6 +1,11 @@
+.tab-container{
+    background-color: #fff;
+    border: 1px;
+    border-color: #000;
+}
 .tab {
     overflow: hidden;
-    border: 1px solid #000000;
+    /*border: 1px solid #000;*/
     background-color: #f1f1f1;
 }
 
@@ -29,7 +34,7 @@
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-top: none;
 }
 .menu{
@@ -54,32 +59,28 @@
     color: #000;
 }
 .list_wrap .group-tabs .nav .nav-item .active{
-    background-color: #fff;
     text-decoration: underline;
-}
-
-.nav .nav-item {
-
 }
 .tab-content .container .nav .nav-item {
     margin-bottom: 20px;
     padding-left: 0px;
-    width: 140px;
+   /* width: 180px;
+    height: 50px;*/
     text-align: center;
-    background-color: #fff;
 
 }
 .tab-content .container .nav .nav-item .nav-link{
-    width: 140px;
+   /* width: 180px;
+    height: 50px*/;
     color: #000;
 }
 .tab-content .container .nav .nav-item .active{
-    background-color: #655c57;
-    color: #fff;
+    color: #000;
+    border-bottom: none;
 }
 .bound{
-    padding-left: 30px;
-    margin-top: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 .fade{
     height: auto;
@@ -133,7 +134,7 @@
     flex-direction: row;
     justify-content: all;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -183,7 +184,7 @@ a:hover, a:focus, a:active {
     cursor: pointer;
     font-size: 20px;
     margin-top: 40px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .icondownload-all:hover {
   background-color: RoyalBlue;
