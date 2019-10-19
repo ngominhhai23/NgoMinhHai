@@ -7,6 +7,9 @@
     color: #000;
     border-color: #dee2e6 #dee2e6 #fff;
 }
+.nav-tabs .nav-link {
+    color: #0099ff;
+}
 .tab {
     overflow: hidden;
     /*border: 1px solid #000;*/
