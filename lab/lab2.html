@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+    <style>.button{ background-color: #ba0c2f; color: #fff }
+    </style>
+    <style>
+    .container{
+        padding:2rem;
+        width: 570px;
+        height: 540px;
+        background-color: #f2f2f2
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+            <h4 style="color: #b90c2f" class="headline">ĐIỀN THÔNG TIN ĐỂ CHỌN KHÓA HỌC<span></span></h4>
+            <div class="col-md-8">
+            <div class="row">
+                    <div class="form-group">
+                            <input type="text"required value="" placeholder="Họ và tên học viên *">
+
+                              <select style="width: 230px">
+                                <option value="">Tỉnh/ Thành phố *</option>
+                                <option>Tp.Hồ Chí Minh</option>
+                                <option>Hà Nội</option>
+                                <option>Bình Dương</option>
+                                <option>Đồng Nai</option>
+                                <option>Vũng Tàu</option>
+                                <option>Tỉnh thành khác</option>
+                                </select>
+                        </div>
+            </div>
+            <div class="row">
+                        <div class="form-group">
+                            <input type="email" name="Email" id="popEmail" value="" class="o2o-email" placeholder="Email liên hệ">
+                            <input type="text" name="Phone" id="popPhone" required class="o2o-phone" value="" placeholder="Điện thoại liên hệ *">
+                        </div>
+            </div>
+                <div class="row">
+                            <textarea rows="3" style="height:100px;width: 466px" placeholder="Ghi chú thêm về nhu cầu học..."></textarea>
+                </div>
+            </div><br>
+                    <input style="" type="submit" onclick="return CheckForm('ConsultForm')" class="button upper" name="ConsultSubmitBtn" id="ConsultSubmitBtn" value="Xem kết quả">
+        </div>
+    </div>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
