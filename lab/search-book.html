@@ -13,10 +13,21 @@
 
 }
     </style>
-    <style>.th, .td {
-  padding: 15px;
-  text-align: center;
-}</style>
+   <style>
+table, td, th {
+text-align: center;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+#table2 {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+}
+</style>
 </head>
 <body  style="background-color:#FEF0BF">
     <div class="container">
@@ -36,6 +47,7 @@
                         </div>
                         <button class="btn1" type="submit">SEARCH</button>
                     </div>
+                </form>
 
             <table style="width:100%">
   <tr>
@@ -46,6 +58,7 @@
     <th>Category</th>
     <th>Publishing number</th>
     <th>Amount</th>
+    <th>       </th>
   </tr>
   <tr>
     <td>1</td>
@@ -77,10 +90,9 @@
 </table>
 <br>
 
-                </form>
-            </div>
+</div>
+</div>
         </div>
-    </div>
 <!-- Load jquery truoc khi load bootstrap js -->
 <script src="jquery-3.4.1.min.js"></script>
 <script src="bootstrap.min.js"></script>
