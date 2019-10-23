@@ -5,7 +5,7 @@
 }
 .nav-tabs .nav-link.active {
     color: #000;
-    border-color: #dee2e6 #dee2e6 #fff;
+    border-color: #dee2e6;
 }
 .nav-tabs .nav-link {
     color: #0099ff;
