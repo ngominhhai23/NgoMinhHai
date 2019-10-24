@@ -181,8 +181,8 @@ a:hover, a:focus, a:active {
     display: none!important;
 }
 .thumb{
-    width: 600px;
-    height: 347px;
+    width: 800px;
+    height: 470px;
     background-image:none ;
     background-position: center center;
     background-size: cover;
