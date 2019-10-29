@@ -134,7 +134,7 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 6rem !important;
+  padding-top: 2rem !important;
   padding-bottom: 0rem !important;
   max-width: 75rem;
 }
@@ -181,9 +181,9 @@ a:hover, a:focus, a:active {
     display: flex;
     flex-direction: column;
     float: left;
-    justify-content: center;
+    justify-content: center center;
     width: 100%;
-    padding-bottom: 4rem !important;
+    /*padding-bottom: 4rem !important;*/
  }
 .main-title {
   text-align: center;
