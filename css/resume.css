@@ -189,3 +189,9 @@ a:hover, a:focus, a:active {
   text-align: center;
   padding-top: 4rem !important;
 }
+.index{
+  text-align: left;
+  margin-top: 10em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
