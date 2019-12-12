@@ -196,3 +196,6 @@ a:hover, a:focus, a:active {
   margin-left: 2em;
   margin-bottom: 2em;
 }
+.fas {
+  color: #0099ff;
+}
