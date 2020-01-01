@@ -199,9 +199,6 @@ a:hover, a:focus, a:active {
     height: 500px;
     background-image: url(../lab/byphone.PNG);
 }
-.result-title {
-    text-decoration: underline;
-}
 .result {
     padding-top: 1em;
     padding-left: 2em;
@@ -215,11 +212,4 @@ a:hover, a:focus, a:active {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 1em;
-}
-a {
-  color: #fff;
-}
-
-a:hover, a:focus, a:active {
-  color: #0099ff;
 }
