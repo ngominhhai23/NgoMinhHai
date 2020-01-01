@@ -201,7 +201,7 @@ a:hover, a:focus, a:active {
 }
 .result {
     padding-top: 1em;
-    padding-left: 2em;
+    padding-left: 0em;
     padding-right: 2em;
     padding-bottom: 1.5em;
 }
